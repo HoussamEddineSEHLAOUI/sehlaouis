@@ -1,0 +1,39 @@
+.Navbar-nav {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+
+.Navbar-logo {
+  padding: 10px;
+  margin-left: 30px;
+  color: #fff;
+}
+.Navbar-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.Navbar-list li {
+  color: #fff;
+  margin-right: 40px;
+}
+.Navbar-connexion {
+  margin-right: 17px;
+}
+
+.Navbar-connexion-in {
+  background-color: rgb(35, 108, 245);
+  color: #fff;
+  height: 30px;
+  width: 95px;
+  border: none;
+  border-radius: 7px;
+}

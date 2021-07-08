@@ -1,0 +1,58 @@
+.Contactus {
+  margin-top: 80px;
+  background-color: rgba(150, 150, 150, 0.61);
+  background-image: url("../imagesAndVideo/contactus.jpg");
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-content: center;
+}
+
+.Contactus-comp {
+  background-color: rgba(143, 143, 143, 0.349);
+  height: 380px;
+  width: 566px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Contactus-comp-div {
+  margin-top: auto;
+  height: 65px;
+}
+
+.Contactus-input {
+  height: 65px;
+}
+
+.Contactus-label {
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+}
+.Contactus-input-text {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 35px;
+  border-radius: 7px;
+  margin-left: 10px;
+  border: none;
+}
+
+.Contactus-submit {
+  background-color: rgba(255, 153, 0, 0.733);
+  height: 35px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.Contactus-input-comment {
+  height: 60%;
+}
+.Contactus-input-comment-text {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 70%;
+  border-radius: 7px;
+  resize: none;
+  padding: 20px;
+}

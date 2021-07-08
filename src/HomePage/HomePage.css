@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+.HomePage {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.HomePage-header {
+  height: 56vh;
+  display: flex;
+}
+
+.menu-comp {
+  width: 50%;
+  height: 100%;
+}
+.disc_text {
+  padding: 50px;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 39px;
+}
+.disc_text span {
+  color: coral;
+}
+
+.btn_connect {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 18px;
+  height: 45px;
+  width: 20%;
+  background-color: rgba(240, 97, 1, 0.774);
+  border-radius: 7px;
+  font-size: 18px;
+  border: solid;
+  border-color: rgba(169, 169, 169, 0.075);
+  color: rgb(253, 253, 253);
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 110px;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.house-comp {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.house1 {
+  margin-top: 55px;
+  margin-left: 40px;
+  background-image: url("../imagesAndVideo/house1.jpg");
+  height: 450px;
+  width: 260px;
+  border-radius: 7px;
+}
+.house2 {
+  margin-top: 55px;
+  margin-left: 10px;
+  background-image: url("../imagesAndVideo/house3.jpg");
+  height: 450px;
+  width: 260px;
+  border-radius: 7px;
+}
+.house3 {
+  margin-top: 55px;
+  margin-left: 10px;
+  background-image: url("../imagesAndVideo/house3.jpg");
+  height: 450px;
+  width: 260px;
+  border-radius: 7px;
+}
+
+/* servise */
+
+.panel-service {
+  background-color: #fff;
+  height: 44vh;
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  height: 330px;
+  width: 25%;
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 5px;
+  justify-content: center;
+  border: #c7c7c7 ridge 0.2px;
+}
+.service-img {
+  background-image: url("../imagesAndVideo/house2.jpg");
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.service-number {
+  color: #e17d12;
+  height: 30%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.footer {
+  background-color: #130c04;
+  height: 150px;
+  color: #a0a0a0;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+}

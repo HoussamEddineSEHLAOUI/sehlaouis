@@ -1,0 +1,50 @@
+.page-LoginPage{
+    background-color: azure;
+}
+
+
+.p-LoginPage-card {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+  margin-top: 100px;
+  background-color: rgba(255, 248, 248, 0.164);
+  height: 70vh;
+  width: 490px;
+  border: rgb(85, 70, 70) ridge 1px;
+  border-radius: 7px;
+}
+.p-LoginPage-card h3 {
+  padding: 40px;
+  font-size: 40px;
+}
+.p-LoginPage-E {
+  height: 80px;
+  margin: 10px;
+}
+
+.p-LoginPage-E p {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.p-LoginPage-E input {
+  width: 90%;
+  height: 35px;
+  margin-left: 20px;
+}
+.p-LoginPage-card button {
+  width: 170px;
+  height: 35px;
+  background-color: rgb(243, 112, 19);
+  color: #fff;
+  border: none;
+  margin-left: 30px;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.p-LoginPage-card p {
+  margin-left: 30px;
+}

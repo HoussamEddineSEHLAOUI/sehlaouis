@@ -1,0 +1,98 @@
+.pp-DetailProduit {
+  height: 800px;
+  width: 1000px;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+
+  border: rgb(177, 175, 175) ridge 1px;
+}
+
+.pp-DetailProduit-images {
+  background-color: rgb(223, 222, 222);
+
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+.pp-DetailProduit-image {
+  background-color: azure;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 7px;
+}
+.pp-DetailProduit-images-panel {
+  height: 500px;
+  width: 60px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.pp-DetailProduit-infos {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+}
+.pp-DetailProduit-title {
+  padding-left: 30px;
+  font-size: 20px;
+  height: 30px;
+  color: coral;
+}
+.pp-DetailProduit-detail {
+  padding: 17px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+.pp-DetailProduit-adress {
+  padding-left: 30px;
+  color: rgb(230, 115, 73);
+  margin-top: 1px;
+}
+
+.pp-DetailProduit-options {
+  height: 180px;
+  width: 99%;
+}
+
+.pp-DetailProduit-list-option {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.pp-DetailProduit-footer {
+  height: 240px;
+}
+
+.pp-DetailProduit-list-option li {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+  font-size: 13px;
+
+  border-radius: 8px;
+  border: 1.2px ridge rgba(241, 150, 13, 0.897);
+
+  margin-top: 10px;
+  margin-right: 2px;
+
+  color: chocolate;
+}
+
+.pp-DetailProduit-prix {
+  background-color: rgb(30, 210, 60);
+  color: #fff;
+  height: 35px;
+  border: none;
+  width: 250px;
+  border-radius: 7px;
+  position: relative;
+  left: 40%;
+}

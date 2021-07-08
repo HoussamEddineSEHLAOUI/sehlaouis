@@ -1,0 +1,47 @@
+.p-Lastsells {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  border: rgb(196, 190, 182) ridge 1px;
+}
+.p-Lastsells-h4 {
+  margin-left: 10px;
+  height: 5px;
+}
+
+.p-Lastsells-prod {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  border-radius: 5px;
+  border: rgb(233, 232, 231) ridge 1px;
+}
+
+.p-Lastsells-img {
+  background-color: brown;
+  background-image: url("../imagesAndVideo/produit1.jpeg");
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.p-Lastsells-detail {
+  height: 80px;
+  width: 345px;
+  margin-left: 10px;
+}
+
+.p-Lastsells-detail h3 {
+  height: 10px;
+  font-size: 17px;
+}
+
+.p-Lastsells-prod-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-Lastsells-prod-list li {
+  color: rgb(156, 150, 150);
+}

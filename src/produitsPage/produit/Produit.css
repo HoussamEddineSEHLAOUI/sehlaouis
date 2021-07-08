@@ -1,0 +1,54 @@
+.pp-produit {
+  width: 650px;
+  border-radius: 0px 0px 8px 8px;
+  background-color: rgb(245, 247, 246);
+  margin-top: 40px;
+  border: 1.2px ridge rgba(211, 209, 205, 0.726);
+}
+.pp-header {
+  background-color: rgb(245, 247, 246);
+  background-image: url("../../imagesAndVideo/house1img.png");
+  background-image: url("../../imagesAndVideo/prosuit3.png");
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 220px;
+}
+
+.pp-title {
+  padding-left: 30px;
+  font-size: 20px;
+  height: 30px;
+  color: coral;
+}
+
+.pp-adress {
+  padding-left: 30px;
+  color: rgb(230, 115, 73);
+  margin-top: 1px;
+}
+
+.pp-list-option {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.pp-option {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.808);
+  font-size: 13px;
+
+  border-radius: 8px;
+  border: 1.2px ridge rgba(241, 150, 13, 0.897);
+}
+.pp-prix {
+  background-color: chocolate;
+  color: #fff;
+  height: 25px;
+  border: none;
+  width: 250px;
+  border-radius: 7px;
+  margin-left: 50%;
+  margin-bottom: 9px;
+}

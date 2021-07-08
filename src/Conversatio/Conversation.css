@@ -1,0 +1,106 @@
+.coner-block {
+  height: 400px;
+  width: 340px;
+  margin-right: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 9px 9px 0px 0px;
+  border: rgba(177, 170, 170, 0.541) ridge 1px;
+}
+.conerversation {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.coner-header {
+  background-color: rgb(77, 75, 80);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px 9px 0px 0px;
+}
+.coner-header-reciver {
+  display: flex;
+  align-items: center;
+}
+.coner-header-image {
+  background-color: rgb(211, 189, 189);
+  background-image: url("../imagesAndVideo/user.jpeg");
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.coner-header-nom {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+.coner-header-exit {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  border: none;
+}
+.coner-contenu {
+  background-color: rgb(241, 241, 241);
+  height: 300px;
+  overflow-y: scroll;
+}
+.coner-footer {
+  background-color: rgb(77, 75, 80);
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.coner-header-descusion {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 51px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(0, 68, 255);
+  color: #fff;
+}
+
+.coner-block-none {
+}
+#conv0 {
+  display: none;
+}
+
+.coner-contenu-msg {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  max-width: 330px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+.coner-contenu-msg-client {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  max-width: 250px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}

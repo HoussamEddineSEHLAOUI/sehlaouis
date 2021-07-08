@@ -1,0 +1,9 @@
+.p-ControllPanel {
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+  margin-right: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+  
+  border: rgb(192, 191, 191) ridge 0.9px;
+}
